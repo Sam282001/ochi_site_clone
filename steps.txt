@@ -1,0 +1,13 @@
+Step 1 : Setup Tailwind CSS
+Step 2: Create Navbar
+Step 3: Create Landing Page 
+Step 4: Create Marquee
+Step 5: Create About
+Step 6: Create Playful Section
+Step 7: Create Cards
+Step 8: Create Cards 2
+Step 9: Create Ready to Start
+Step 10: Create Footer
+
+
+

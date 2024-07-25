@@ -8,21 +8,6 @@
           "distDir": "dist"
         }
       }
-    ],
-    "build": {
-      "env": {
-        "NODE_ENV": "production"
-      },
-      "commands": [
-        {
-          "name": "Install dependencies",
-          "command": "npm install --legacy-peer-deps"
-        },
-        {
-          "name": "Build project",
-          "command": "npm run build"
-        }
-      ]
-    }
+    ]
   }
   

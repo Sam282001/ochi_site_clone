@@ -1,0 +1,28 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "dist"
+        }
+      }
+    ],
+    "build": {
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "commands": [
+        {
+          "name": "Install dependencies",
+          "command": "npm install --legacy-peer-deps"
+        },
+        {
+          "name": "Build project",
+          "command": "npm run build"
+        }
+      ]
+    }
+  }
+  
